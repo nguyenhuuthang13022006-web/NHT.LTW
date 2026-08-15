@@ -1,0 +1,14 @@
+D:\NHT.LTW\NhtLession01\NhtLession01\bin\Debug\net10.0\NhtLession01.exe
+D:\NHT.LTW\NhtLession01\NhtLession01\bin\Debug\net10.0\NhtLession01.deps.json
+D:\NHT.LTW\NhtLession01\NhtLession01\bin\Debug\net10.0\NhtLession01.runtimeconfig.json
+D:\NHT.LTW\NhtLession01\NhtLession01\bin\Debug\net10.0\NhtLession01.dll
+D:\NHT.LTW\NhtLession01\NhtLession01\bin\Debug\net10.0\NhtLession01.pdb
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.GeneratedMSBuildEditorConfig.editorconfig
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.AssemblyInfoInputs.cache
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.AssemblyInfo.cs
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.csproj.CoreCompileInputs.cache
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.dll
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\refint\NhtLession01.dll
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.pdb
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\NhtLession01.genruntimeconfig.cache
+D:\NHT.LTW\NhtLession01\NhtLession01\obj\Debug\net10.0\ref\NhtLession01.dll
