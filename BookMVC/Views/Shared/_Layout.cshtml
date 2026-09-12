@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookMVC</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <a class="brand" asp-controller="Books" asp-action="Index">QUẢN LÝ SÁCH</a>
+        </div>
+    </header>
+
+    <main class="container">
+        @RenderBody()
+    </main>
+</body>
+</html>

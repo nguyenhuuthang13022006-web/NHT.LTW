@@ -1,0 +1,66 @@
+@model BookViewModel
+@{
+    ViewData["Title"] = "Danh sách các cuốn sách";
+}
+
+<div class="page-title">Danh sách các cuốn sách</div>
+
+<form asp-action="Index" method="get" class="filter-form">
+    <select name="authorId">
+        <option value="">Chọn tác giả</option>
+        @foreach (var author in ViewBag.Authors)
+        {
+            <option value="@author.AuthorId" selected="@(Model.AuthorId == author.AuthorId)">
+                @author.AuthorName
+            </option>
+        }
+    </select>
+
+    <select name="categoryId">
+        <option value="">Chọn thể loại</option>
+        @foreach (var category in ViewBag.Categories)
+        {
+            <option value="@category.CategoryId" selected="@(Model.CategoryId == category.CategoryId)">
+                @category.CategoryName
+            </option>
+        }
+    </select>
+
+    <input type="text" name="keyword" value="@Model.Keyword" placeholder="Nhập tên sách..." />
+    <button class="btn btn-search" type="submit">Tìm kiếm</button>
+    <a class="btn btn-add" asp-action="Create">Thêm mới</a>
+</form>
+
+<div class="table-card">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tiêu đề</th>
+                <th>Tác giả</th>
+                <th>Thể loại</th>
+                <th>Giá</th>
+                <th>Hình ảnh</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.Books)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.AuthorName</td>
+                <td>@item.CategoryName</td>
+                <td>@item.Price.ToString("N0")</td>
+                <td>
+                    <img class="book-img" src="@item.Image" alt="@item.Title" />
+                </td>
+                <td>
+                    <a class="btn btn-edit" asp-action="Edit" asp-route-id="@item.Id">Sửa</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,24 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#333}
+.topbar{height:56px;background:#198754;display:flex;align-items:center;box-shadow:0 1px 4px #bbb}
+.container{width:1100px;max-width:94%;margin:0 auto}
+.brand{color:#fff;text-decoration:none;font-weight:700;font-size:20px}
+.page-title{font-size:28px;margin:28px 0 12px;color:#333}
+.filter-form{display:flex;gap:8px;align-items:center;margin-bottom:14px}
+.filter-form select,.filter-form input{height:38px;border:1px solid #ddd;border-radius:4px;padding:0 10px;font-size:14px}
+.filter-form select{width:190px}
+.filter-form input{width:220px}
+.btn{display:inline-block;border:0;border-radius:4px;padding:10px 16px;text-decoration:none;color:#fff;font-size:14px;cursor:pointer}
+.btn-search{background:#337ab7}
+.btn-add{background:#d9534f}
+.btn-edit{background:#337ab7;padding:7px 13px}
+.btn-cancel{background:#777}
+.table-card{border-top:1px solid #ddd}
+table{width:100%;border-collapse:collapse;margin-top:0}
+th,td{border:1px solid #e5e5e5;padding:12px 10px;text-align:left;font-size:14px}
+th{font-weight:700;background:#fafafa}
+.book-img{width:45px;height:62px;object-fit:cover;border:1px solid #ddd}
+.book-form{width:560px;display:grid;grid-template-columns:140px 1fr;gap:12px;align-items:center}
+.book-form input,.book-form select{height:38px;border:1px solid #ccc;border-radius:4px;padding:0 10px}
+.actions{grid-column:2;display:flex;gap:8px;margin-top:8px}
+@media(max-width:800px){.container{max-width:96%}.filter-form{flex-wrap:wrap}.filter-form select,.filter-form input{width:100%}.book-form{width:100%;grid-template-columns:1fr}.actions{grid-column:1}}

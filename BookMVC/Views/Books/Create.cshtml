@@ -1,0 +1,32 @@
+@model Book
+@{
+    ViewData["Title"] = "Thêm sách";
+}
+<div class="page-title">Thêm sách mới</div>
+
+<form asp-action="Create" method="post" class="book-form">
+    <label>Tiêu đề</label>
+    <input asp-for="Title" required />
+
+    <label>Tác giả</label>
+    <select asp-for="AuthorId">
+        <option value="1">Nam Cao</option>
+        <option value="2">Aoyama</option>
+        <option value="3">Nguyễn Hiến Lê</option>
+    </select>
+
+    <label>Thể loại</label>
+    <select asp-for="CategoryId">
+        <option value="1">Văn học</option>
+        <option value="2">Truyện tranh</option>
+        <option value="3">Kỹ năng</option>
+    </select>
+
+    <label>Giá</label>
+    <input asp-for="Price" type="number" min="0" required />
+
+    <div class="actions">
+        <button class="btn btn-add" type="submit">Lưu</button>
+        <a class="btn btn-cancel" asp-action="Index">Quay lại</a>
+    </div>
+</form>

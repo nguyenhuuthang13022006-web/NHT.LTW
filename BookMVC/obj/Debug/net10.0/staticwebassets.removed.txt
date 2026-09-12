@@ -1,0 +1,6 @@
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\css\site.css
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\images\chipheo.svg
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\images\conan.svg
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\images\default.svg
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\images\duongxua.svg
+C:\Users\Admin\Downloads\BookMVC_NET10\BookMVC\wwwroot\images\laohac.svg

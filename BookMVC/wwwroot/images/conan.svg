@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="170">
+<rect width="120" height="170" fill="#c9d9c0"/>
+<rect x="8" y="8" width="104" height="154" fill="white" opacity=".75"/>
+<text x="60" y="82" text-anchor="middle" font-family="Arial" font-size="15" fill="#333">Conan</text>
+<text x="60" y="105" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">BOOK</text>
+</svg>
